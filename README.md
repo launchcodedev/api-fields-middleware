@@ -6,7 +6,7 @@ yarn add @lcdev/api-fields-middleware@0.1
 ```
 
 ```typescript
-import { extractApiFieldsMiddleware } from '@lcdev/api-fields-middleware';
+import { ApiField } from '@lcdev/api-fields';
 
 // somewhere, where your model is defined
 class EntityA {
@@ -19,6 +19,8 @@ class EntityA {
   privateFieldA: any;
   privateFieldB: any;
 }
+
+import { extractApiFieldsMiddleware } from '@lcdev/api-fields-middleware';
 
 // somewhere, where you have a koa router
 app
