@@ -3,7 +3,10 @@ import { Class } from '@lcdev/ts';
 import { extract, Extraction } from '@lcdev/mapper';
 import { getApiFields } from '@lcdev/api-fields';
 
-export function extractApiFieldsMiddleware(klass: Class<any> | [Class<any>] | any, raw: boolean = false): Middleware {
+export function extractApiFieldsMiddleware(
+  klass: Class<any> | [Class<any>] | any,
+  raw: boolean = false,
+): Middleware {
   let extraction: Extraction;
 
   if (raw) {
