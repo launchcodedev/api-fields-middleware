@@ -1,6 +1,6 @@
 # API Fields Middlware
 [![Licensed under MPL 2.0](https://img.shields.io/badge/license-MPL_2.0-green.svg)](https://www.mozilla.org/en-US/MPL/2.0/)
-[![Build Status](https://github.com/servall/api-fields-middleware/workflows/CI/badge.svg)](https://github.com/servall/api-fields-middleware/actions)
+[![Build Status](https://github.com/launchcodedev/api-fields-middleware/workflows/CI/badge.svg)](https://github.com/launchcodedev/api-fields-middleware/actions)
 [![npm](https://img.shields.io/npm/v/@lcdev/api-fields-middleware.svg)](https://www.npmjs.com/package/@lcdev/api-fields-middleware)
 
 Use API Fields easily in Koa.
